@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "wools"
+version = "0.1.0"
+description = ""
+authors = ["xxx <xxx@xxx.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+loguru = "^0.7.2"
+toml = "^0.10.2"
+fake-useragent = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

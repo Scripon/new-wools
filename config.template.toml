@@ -1,0 +1,11 @@
+uid = ['your_wxpusher_uid']  # 替换成你的 wxpusher 的 uid
+
+[juejin]
+func_name = "juejin"
+description = "掘金"
+cookie = "" # 从请求头中获取
+x-secsdk-csrf-token = "" # 从请求头中获取
+aid= "" # 从check_in接口中获取
+uuid = "" # 从check_in接口中获取
+msToken = "" # 从check_in接口中获取
+a_bogus = "" # 从check_in接口中获取
